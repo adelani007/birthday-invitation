@@ -51,6 +51,11 @@ export default function RSVP() {
               className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-rose-500"
               rows="3"
             />
+            <input
+            type="hidden"
+            name="_redirect"
+            value="https://github.com/adelani007/birthday-invitation.git"
+          />
 
             <button
               type="submit"
