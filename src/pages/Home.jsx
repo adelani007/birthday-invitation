@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 
 
+
 export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-pink-200 to-pink-400 p-6">
@@ -14,7 +15,7 @@ export default function Home() {
             
           <div className="p-1 rounded-full bg-gradient-to-tr from-pink-500 via-yellow-400 to-pink-500">
             <img
-              src=""// <-- replace with actual image path
+              src="./mum.jpg"// <-- replace with actual image path
               alt="Birthday Celebrant"
               className="w-40 h-40 rounded-full border-4 border-white object-cover"
             />
