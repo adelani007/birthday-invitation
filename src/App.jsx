@@ -4,7 +4,7 @@ import { AnimatePresence } from "framer-motion";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import ScrollToTopButton from "./components/ScrollToTopButton";
+// import ScrollToTopButton from "./components/ScrollToTopButton";
 import PageWrapper from "./components/PageWrapper";
 
 import Home from "./pages/Home";
@@ -36,7 +36,7 @@ export default function App() {
           <AnimatedRoutes /> {/* ✅ smooth animated page transitions */}
         </main>
         <Footer />
-        <ScrollToTopButton />
+        {/* <ScrollToTopButton /> */}
       </div>
     
   );
